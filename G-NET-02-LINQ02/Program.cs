@@ -18,6 +18,11 @@ namespace G_NET_02_LINQ02
 
             #endregion
 
+            #region Q3
+
+            //var result = Source.ProductList.OrderBy(p => p.UnitPrice).TakeWhile(p => p.UnitPrice < 25);
+
+            #endregion
 
             foreach (var item in result)
             {
