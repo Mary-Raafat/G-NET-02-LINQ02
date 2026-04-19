@@ -24,10 +24,17 @@ namespace G_NET_02_LINQ02
 
             #endregion
 
-            foreach (var item in result)
-            {
-                Console.WriteLine(item);
-            }
+            #region Q4
+
+            //bool allInStock=Source.ProductList.Where(p=>p.Category=="Seafood").All(p=>p.UnitsInStock==0);
+            //Console.WriteLine(allInStock);
+            #endregion
+
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
         }
     }
 }
