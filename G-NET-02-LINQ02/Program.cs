@@ -37,11 +37,20 @@ namespace G_NET_02_LINQ02
 
             #endregion
 
-
-            //foreach (var item in result)
+            #region Q6
+            //var grouping = Source.ProductList.GroupBy(p => p.Category);
+            //foreach (var item in grouping)
             //{
-            //    Console.WriteLine(item);
+            //    Console.WriteLine($"[{item.Key}] - [{item.Count()}]");
             //}
+            #endregion
+
+
+
+            //    foreach (var item in result)
+            //    {
+            //        Console.WriteLine(item);
+            //    }
         }
     }
 }
