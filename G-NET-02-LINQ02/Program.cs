@@ -30,6 +30,13 @@ namespace G_NET_02_LINQ02
             //Console.WriteLine(allInStock);
             #endregion
 
+            #region Q5
+            //int[] ids = { 3, 9, 13, 18 };
+            //bool ifExists = ids.Contains(9);
+            //Console.WriteLine(ifExists);
+
+            #endregion
+
 
             //foreach (var item in result)
             //{
