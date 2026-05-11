@@ -45,12 +45,29 @@ namespace G_NET_02_LINQ02
             //}
             #endregion
 
+            #region Q7
 
+            //var grouping = Source.ProductList.GroupBy(p => p.Category).Select(g => new
+            //{
+            //    Category=g.Key,
+            //    ProductName=g.Select(p=>p.ProductName)
 
-            //    foreach (var item in result)
+            //});
+            
+            //foreach( var group in grouping)
+            //{
+            //    Console.WriteLine(group.Category);
+            //    foreach(var name in group.ProductName)
             //    {
-            //        Console.WriteLine(item);
+            //        Console.WriteLine(name);
             //    }
+            //}
+
+            #endregion
+
+
+
+         
         }
     }
 }
