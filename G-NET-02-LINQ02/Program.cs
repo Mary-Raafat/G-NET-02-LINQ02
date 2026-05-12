@@ -53,7 +53,7 @@ namespace G_NET_02_LINQ02
             //    ProductName=g.Select(p=>p.ProductName)
 
             //});
-            
+
             //foreach( var group in grouping)
             //{
             //    Console.WriteLine(group.Category);
@@ -65,9 +65,21 @@ namespace G_NET_02_LINQ02
 
             #endregion
 
+            #region Q8
+
+            //var result = Source.ProductList.GroupBy(p => p.Category).Where(g => g.Count() > 3).Select(g => g.Key);
+            //foreach(var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
 
-         
+
+
+            #endregion
+
+
+
         }
     }
 }
