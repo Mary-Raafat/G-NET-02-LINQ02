@@ -1,5 +1,6 @@
 ﻿using G_NET_02_LINQ02.DataSources;
 using G_NET_02_LINQ02.Models;
+using System.Linq;
 
 namespace G_NET_02_LINQ02
 {
@@ -99,6 +100,42 @@ namespace G_NET_02_LINQ02
 
             #endregion
 
+            #region Q10
+
+            //var result=Source.ProductList.Sum(p=>p.UnitsInStock);
+            //Console.WriteLine(result);
+
+            #endregion
+
+            #region Q11
+            //var Maximum = Source.ProductList.Max(p => p.UnitPrice);
+            //var Minimum = Source.ProductList.Min(p=>p.UnitPrice);
+
+            //Console.WriteLine( $" The Maximum Price is :{Maximum}");
+            //Console.WriteLine( $" The Minimum Price is : {Minimum}");
+
+
+            #endregion
+
+            #region Q12
+            //var result = Source.ProductList.Select(p => p.Category).Distinct(StringComparer.OrdinalIgnoreCase).ToList();
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            #endregion
+
+            #region Q13
+            //int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+            //int[] setB = { 3, 6, 9, 12, 15, 13 };
+            //var ProductIds=setA.Except(setB);
+            //foreach(int id in ProductIds)
+            //{
+            //    Console.WriteLine(id);
+            //}
+            #endregion
 
 
 
