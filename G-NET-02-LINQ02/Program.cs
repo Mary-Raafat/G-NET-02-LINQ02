@@ -137,8 +137,72 @@ namespace G_NET_02_LINQ02
             //}
             #endregion
 
+            #region Q14
+
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
+            //var Countries=list1.Except(list2,StringComparer.OrdinalIgnoreCase);
+            //foreach (var country in Countries)
+            //{
+            //    Console.WriteLine(country);
+            //}
+
+            #endregion
+
+            #region Q15
+            //var productDic = Source.ProductList.ToDictionary(p => p.ProductID);
+            //var product = productDic[18];
+            //Console.WriteLine(product);
+
+            #endregion
+
+            #region Q16
+            //var result = Source.ProductList.First(p => p.UnitPrice > 50);
+            //Console.WriteLine(result);
+            #endregion
+
+            #region Q17
+            //var result = Source.ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+            //Console.WriteLine(result);
+            #endregion
+
+            #region Q18
+            //var result = Enumerable.Range(1, 10).Select(x => $" 7 × {x} = {7 * x}");
+            //foreach( var item in result )
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
+
+            #region Q19
+            //var evens =Enumerable.Range(1, 30).Where(n => n % 2 == 0).Select(x=>$"Even Numbers :{x}");
+            // foreach(var ev in evens)
+            // {
+            //     Console.WriteLine(ev);
+            // }
+
+            #endregion
+
+            #region Q20
+            //var result = Source.ProductList.Select(p => p.ProductName).Take(3).Concat(
+            //    Source.CustomerList.Select(c => c.CompanyName).Take(3)
+            //    );
+            //foreach ( var item in result )
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
+            #region Q21
+            //var result = Source.ProductList.Zip(Source.CustomerList, (p, c) => $"{p.ProductName} sold to {c.CompanyName}");
+            //foreach( var item in result )
+            //{
+            //    Console.WriteLine(item);
+            //}
 
 
+            #endregion
         }
     }
 }
